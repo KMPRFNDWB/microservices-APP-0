@@ -131,3 +131,8 @@ output-virtualbox-iso
 # Ignore grafanalib output
 /graphs/__pycache__/
 /graphs/*.json
+
+#New
+user-dep.yaml 
+payment-dep.yaml 
+catalogue-dep.yaml
