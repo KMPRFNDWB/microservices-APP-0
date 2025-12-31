@@ -31,6 +31,10 @@ spec:
         env:
         - name: mongo
           value: user-db:27017
+        - name: zipkin
+          value: http://zipkin.jaeger.svc.cluster.local:9411/api/v1/spans
+        - name: MONGO_HOST
+          value: user-db:27017
         securityContext:
           runAsNonRoot: true
           runAsUser: 10001
