@@ -79,7 +79,7 @@ items:
         targetPort: 16686
     selector:
       jaeger-infra: jaeger-pod
-    type: LoadBalancer
+    type: NodePort
 - apiVersion: v1
   kind: Service
   metadata:
